@@ -1,0 +1,64 @@
+.source.gfm {
+  .heading-2 {
+    color: mix(@base0D, @base07, 92%)
+  }
+
+  .heading-3 {
+    color: mix(@base0D, @base07, 84%)
+  }
+
+  .heading-4 {
+    color: mix(@base0D, @base07, 76%)
+  }
+
+  .heading-5 {
+    color: mix(@base0D, @base07, 68%)
+  }
+
+  .heading-6 {
+    color: mix(@base0D, @base07, 60%)
+  }
+
+  .marker {
+    color: inherit;
+  }
+
+  .link {
+    color: @base0F;
+
+    .punctuation.definition {
+      color: @base03;
+    }
+
+    .entity {
+      color: @base07;
+    }
+
+    .link {
+      color: @base05;
+    }
+
+    &.hyperlink {
+      color: @base05;
+    }
+  }
+
+  .bold,
+  .italic {
+    .link {
+      color: @base05;
+    }
+  }
+
+  .list {
+    color: @base0E;
+  }
+
+  .quote {
+    color: @base09;
+  }
+
+  .hr {
+    color: @base0A;
+  }
+}

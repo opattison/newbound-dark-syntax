@@ -1,0 +1,81 @@
+// support for CSS as well as SCSS, Sass (indented syntax) and Less
+.source.css,
+.source.scss,
+.source.sass,
+.source.less {
+
+  .punctuation {
+    color: @base05;
+  }
+
+  .meta {
+    &.brace {
+      color: @base05;
+    }
+  }
+
+  .entity {
+    &.name,
+    &.tag {
+      color: @base0D;
+    }
+
+    &.reference {
+      color: @base0F;
+    }
+
+    &.pseudo-class,
+    &.pseudo-element {
+      color: @base0C;
+    }
+
+    &.placeholder {
+
+      .punctuation {
+        color: @base06;
+      }
+    }
+  }
+
+  .variable {
+    &.other {
+      color: @base09;
+    }
+
+    &.other.less {
+      color: @base08; // syntax handled differently between less and scss
+    }
+  }
+
+  .keyword {
+
+    .punctuation {
+      color: @base05;
+    }
+
+    &.at-rule {
+      color: @base0D;
+    }
+
+    &.each,
+    &.extend,
+    &.for,
+    &.function,
+    &.include,
+    &.import,
+    &.if,
+    &.mixin,
+    &.return,
+    &.while {
+      color: @base0E;
+    }
+
+    &.important {
+      color: @base0F;
+    }
+  }
+
+  .comment {
+    color: @base04;
+  }
+}

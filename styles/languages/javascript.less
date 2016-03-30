@@ -1,0 +1,49 @@
+.source.js {
+  .punctuation {
+    color: @base05;
+  }
+
+  .keyword.operator {
+    color: @base06;
+
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
+      color: @base0B;
+    }
+
+    &.comparison {
+      color: @base0E;
+    }
+  }
+
+  .entity {
+    &.name.function {
+      color: @base0F;
+    }
+  }
+
+  .function {
+    &.parameter {
+      color: @base06;
+    }
+  }
+
+  .meta {
+    &.brace {
+      color: @base05;
+    }
+
+    &.arguments {
+      color: @base06;
+    }
+  }
+
+  .comment {
+    color: @base04;
+  }
+}
