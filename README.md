@@ -1,6 +1,6 @@
 # <a href="https://atom.io/themes/newbound-dark-syntax"><img src="http://opensource.olivermak.es/images/2016-03-27-olivermakes-favicon32.svg" width="32" height="32"></a> <a href="https://atom.io/themes/newbound-dark-syntax">newbound dark</a> syntax theme for Atom
 
-Brother to the higher contrast [newbound light](https://atom.io/themes/newbound-dark-syntax), **newbound dark** is a theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use.
+Brother to the higher contrast [newbound light](https://atom.io/themes/newbound-light-syntax), **newbound dark** is a theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use.
 
 [View on Atom.io](https://atom.io/themes/newbound-dark-syntax)
 
