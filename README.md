@@ -1,6 +1,10 @@
 # <a href="https://atom.io/themes/newbound-dark-syntax"><img src="http://opensource.olivermak.es/images/2016-03-27-olivermakes-favicon32.svg" width="32" height="32"></a> <a href="https://atom.io/themes/newbound-dark-syntax">newbound dark</a> syntax theme for Atom
 
-Brother to the higher contrast [newbound light](https://atom.io/themes/newbound-light-syntax), **newbound dark** is a theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use.
+**newbound dark** is a subtle, medium contrast theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use. Its brother is the higher contrast [newbound light](https://atom.io/themes/newbound-light-syntax).
+
+![16 swatches of each color](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-swatches.png)
+
+![sample of newbound colors](http://opensource.olivermak.es/images/2016-03-30-newbound-dark-sample.png)
 
 [View on Atom.io](https://atom.io/themes/newbound-dark-syntax)
 
@@ -13,6 +17,7 @@ Brother to the higher contrast [newbound light](https://atom.io/themes/newbound-
 - Carefully selected, [Base16](https://github.com/chriskempson/base16)-inspired palette
 - Support for UIs that are responsive to hues from syntax themes, like the built-in [One Dark UI theme](https://atom.io/themes/one-dark-ui)
 - Subtle `invisibles` (if enabled in Settings)
+- Bracket matching style
 - Suitable for monospace fonts without an italic variant
 
 ## Specific support for these syntaxes
@@ -35,7 +40,25 @@ General support for other languages is intended but not guaranteed.
 
 Optimized for [One Dark UI](https://atom.io/themes/one-dark-ui) and [One Light UI](https://atom.io/themes/one-light-ui).
 
----
+### HTML (and Liquid)
+
+![HTML and Liquid text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-html.png)
+
+### Markdown
+
+![Markdown text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-md.png)
+
+### JavaScript
+
+![JavaScript code sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-js.png)
+
+### SCSS (or CSS, Sass, or Less)
+
+![SCSS text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-scss.png)
+
+### Ruby
+
+![Ruby code sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-ruby.png)
 
 ## Install
 
