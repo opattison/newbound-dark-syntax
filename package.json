@@ -1,7 +1,7 @@
 {
   "name": "newbound-dark-syntax",
   "theme": "syntax",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A highly legible, medium contrast, dark syntax theme for Atom",
   "keywords": [
     "syntax",
