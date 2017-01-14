@@ -1,25 +1,25 @@
-.source.json {
-  .dictionary {
-    .string.quoted {
+.syntax--source.syntax--json {
+  .syntax--dictionary {
+    .syntax--string.syntax--quoted {
       color: @base0D;
     }
 
     // value hack until this is better supported in Atom
-    & > .value.json > .string.json {
+    & > .syntax--value.syntax--json > .syntax--string.syntax--json {
       color: @base0B;
     }
   }
 
-  .array {
-    .string.quoted {
+  .syntax--array {
+    .syntax--string.syntax--quoted {
       color: @base0B;
     }
   }
 
-  .punctuation {
+  .syntax--punctuation {
     color: @base05;
 
-    &.key-value {
+    &.syntax--key-value {
       color: @base06;
     }
   }

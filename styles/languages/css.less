@@ -1,81 +1,81 @@
 // support for CSS as well as SCSS, Sass (indented syntax) and Less
-.source.css,
-.source.scss,
-.source.sass,
-.source.less {
+.syntax--source.syntax--css,
+.syntax--source.syntax--scss,
+.syntax--source.syntax--sass,
+.syntax--source.syntax--less {
 
-  .punctuation {
+  .syntax--punctuation {
     color: @base05;
   }
 
-  .meta {
-    &.brace {
+  .syntax--meta {
+    &.syntax--brace {
       color: @base05;
     }
   }
 
-  .entity {
-    &.name,
-    &.tag {
+  .syntax--entity {
+    &.syntax--name,
+    &.syntax--tag {
       color: @base0D;
     }
 
-    &.reference {
+    &.syntax--reference {
       color: @base0F;
     }
 
-    &.pseudo-class,
-    &.pseudo-element {
+    &.syntax--pseudo-class,
+    &.syntax--pseudo-element {
       color: @base0C;
     }
 
-    &.placeholder {
+    &.syntax--placeholder {
 
-      .punctuation {
+      .syntax--punctuation {
         color: @base06;
       }
     }
   }
 
-  .variable {
-    &.other {
+  .syntax--variable {
+    &.syntax--other {
       color: @base09;
     }
 
-    &.other.less {
+    &.syntax--other.syntax--less {
       color: @base08; // syntax handled differently between less and scss
     }
   }
 
-  .keyword {
+  .syntax--keyword {
 
-    .punctuation {
+    .syntax--punctuation {
       color: @base05;
     }
 
-    &.at-rule {
+    &.syntax--at-rule {
       color: @base0D;
     }
 
-    &.each,
-    &.extend,
-    &.for,
-    &.function,
-    &.include,
-    &.import,
-    &.if,
-    &.mixin,
-    &.return,
-    &.while {
+    &.syntax--each,
+    &.syntax--extend,
+    &.syntax--for,
+    &.syntax--function,
+    &.syntax--include,
+    &.syntax--import,
+    &.syntax--if,
+    &.syntax--mixin,
+    &.syntax--return,
+    &.syntax--while {
       color: @base0E;
     }
 
-    &.important {
+    &.syntax--important {
       color: @base0F;
     }
   }
 
-  .comment {
+  .syntax--comment {
     color: @base04;
   }
 }
